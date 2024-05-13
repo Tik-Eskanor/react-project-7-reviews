@@ -1,0 +1,109 @@
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+main
+{
+    background: whitesmoke;
+}
+.container
+{
+    max-width: 1000px;
+    margin: auto;
+}
+.box
+{
+  width: 70%;
+  margin: auto;
+  padding: 1rem;
+}
+article
+{
+    margin: 2rem 0;
+    background-color: white;
+    box-shadow: 5px 5px 15px rgba(51, 51, 51, 0.158);
+    border-radius: 5px;
+    padding: 1rem 1rem;
+    text-align: center;
+     
+}
+h1
+{
+    font-size: 2rem;
+    margin-top: 2rem;
+}
+h1 span
+{
+    color: royalblue;
+    font-size: 1.5rem;
+}
+.img-wrapper
+{
+    position: relative;
+}
+.icon
+{
+    color: white;
+    background: royalblue;
+    width: 35px;
+    height: 35px;
+    padding: 10px;
+    border-radius: 100px;
+    position: absolute;
+    top: 25px;
+}
+img
+{
+    width:150px;
+    height: 150px;
+    border-radius: 100px;
+    object-fit: cover;
+    object-position: center;
+    border: 6px solid royalblue;
+    border-left: 0;
+    border-bottom: 0;
+}
+
+h4
+{
+    color: rgb(51, 51, 51);
+    margin-top: 7px;
+}
+
+.job
+{
+    margin-top: 5px;
+    font-weight: 600;
+    color: rgba(51, 51, 51, 0.671);
+}
+.info
+{
+    font-weight: 500;
+    color: #333;
+    max-width: 400px;
+    margin: 10px auto;
+}
+.nav
+{
+    display: flex;
+    margin-top: 10px;
+    justify-content: center;
+    color: royalblue;
+}
+
+.nav button,button
+{
+    border: none;
+    background: transparent;
+    color: royalblue;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.nav button
+{
+    margin-left: 0.5rem;
+}
